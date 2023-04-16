@@ -1,7 +1,7 @@
 
 # Post Project
 
-Project with CRUD for Posts
+Project to show Posts and Comments, Sign in with OAuth
 
 
 ## PostgreSQL DB
