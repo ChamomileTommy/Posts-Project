@@ -1,13 +1,12 @@
 
 # Post Project
 
-Project with CRUD for Posts
-
+Project to show Posts and Comments, Sign in with OAuth
 
 ## PostgreSQL DB
 
 To create PostgreSQL DB:
-- We go to https://railway.app/ 
+- Go to https://railway.app/ 
 - Click "Start new project"
 - Click "Provision PostgreSQL"
 - Copy DATABASE_URL
@@ -54,7 +53,7 @@ Config .env
   GOOGLE_CLIENT_SECRET=""
 ```
 
-Create table for PostgreSQL DB
+Create tables for PostgreSQL DB
 
 ```bash
   npx prisma migrate dev
