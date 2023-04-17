@@ -1,7 +1,7 @@
 
 # Post Project
 
-Project to show Posts and Comments, Sign in with OAuth
+Project with CRUD for Posts
 
 
 ## PostgreSQL DB
@@ -13,6 +13,16 @@ To create PostgreSQL DB:
 - Copy DATABASE_URL
 
 ![My Image](PostgreSQL.png)
+
+## Github OAuth 
+
+To generate  GITHUB_ID and GITHUB_SECRET:
+- Go to your Github
+- Choose settings/Developer settings/Outh Apps/New OAuth App
+- Register a new OAuth application
+- Copy GITHUB_ID and GITHUB_SECRET
+
+![My Image](github.png)
 
 ## Run Locally
 
